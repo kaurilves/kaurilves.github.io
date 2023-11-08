@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip ja Flop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <h1><img src="logo.png" alt="My Logo" class="small-logo"></h1>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#" onclick="toggleComponents('main-page'); return true;">Pealeht</a></li>
+                <li><a href="#" onclick="toggleComponents('projects'); return false;">Projektid</a></li>
+                <li><a href="#" onclick="toggleComponents('instructions'); return false;">Õpetused</a></li>
+                <li><a href="#" onclick="toggleComponents('contact'); return false;">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content" id="main-page">
+        <h1>FLIP & FLOP</h1>
+        <p>
+            Vabal ajal tegelen kinnisvarasse investeerimisega. Ostan, müün ja valeta..vahetan!. Mõnikord on tulemuseks
+            FLIP ehk teenin ka raha, aga tihti ka FLOP eh kraha nii palju ei teeni või kaasnevad korteriga mingid muud
+            hädad. :)
+        </p>
+    </div>
+    <div class="content" id="projects">
+        <h1>MINU PROJEKTID</h1>
+        <p>Siin on minu projektid.</p>
+        <h2>Manufaktuuri korter (MÜÜDUD!)</h2>
+        <div class="project-gallery">
+            <img class="thumbnail" src="pildid/manuf1.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf1.jpg')">
+            <img class="thumbnail" src="pildid/manuf2.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf2.jpg')">
+            <img class="thumbnail" src="pildid/manuf3.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf3.jpg')">
+            <img class="thumbnail" src="pildid/manuf4.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf4.jpg')">
+            <img class="thumbnail" src="pildid/manuf5.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf5.jpg')">
+            <img class="thumbnail" src="pildid/manuf6.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf6.jpg')">
+            <img class="thumbnail" src="pildid/manuf7.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf7.jpg')">
+            <img class="thumbnail" src="pildid/manuf8.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf8.jpg')">
+            <img class="thumbnail" src="pildid/manuf9.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf9.jpg')">
+            <img class="thumbnail" src="pildid/manuf10.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf10.jpg')">
+            <img class="thumbnail" src="pildid/manuf11.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf11.jpg')">
+            <img class="thumbnail" src="pildid/manuf12.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf12.jpg')">
+            <img class="thumbnail" src="pildid/manuf13.jpg" alt="Project 1"
+                 onclick="openModal('pildid/manuf13.jpg')">
+            <img class="thumbnail" src="pildid/manuf14.jpg" alt="Project 1"
+                 onclick="openModal('pildid//manuf14.jpg')">
+        </div>
+        <h2>Valdeku korter (MÜÜDUD!) </h2>
+        <div class="project-gallery">
+            <img class="thumbnail" src="pildid/valdek1.jpg" alt="Project 2"
+                 onclick="openModal('pildid/valdek1.jpg')">
+            <img class="thumbnail" src="pildid/valdek2.jpg" alt="Project 2"
+                 onclick="openModal('pildid/valdek2.jpg')">
+            <img class="thumbnail" src="pildid/valdek3.jpg" alt="Project 2"
+                 onclick="openModal('pildid/valdek3.jpg')">
+            <img class="thumbnail" src="pildid/valdek4.jpg" alt="Project 2"
+                 onclick="openModal('pildid/valdek4.jpg')">
+            <img class="thumbnail" src="pildid/valdek5.jpg" alt="Project 2"
+                 onclick="openModal('pildid/valdek5.jpg')">
+            <img class="thumbnail" src="pildid/valdek6.jpg" alt="Project 2"
+                 onclick="openModal('pildid/valdek6.jpg')">
+        </div>
+        <h2>Sõle korter (ÜÜRILE ANTUD!)</h2>
+        <div class="project-gallery">
+            <img class="thumbnail" src="pildid/sole1.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole1.jpg')">
+            <img class="thumbnail" src="pildid/sole2.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole2.jpg')">
+            <img class="thumbnail" src="pildid/sole3.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole3.jpg')">
+            <img class="thumbnail" src="pildid/sole4.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole4.jpg')">
+            <img class="thumbnail" src="pildid/sole5.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole5.jpg')">
+            <img class="thumbnail" src="pildid/sole6.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole6.jpg')">
+            <img class="thumbnail" src="pildid/sole7.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole7.jpg')">
+            <img class="thumbnail" src="pildid/sole8.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole8.jpg')">
+            <img class="thumbnail" src="pildid/sole9.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole9.jpg')">
+            <img class="thumbnail" src="pildid/sole10.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole10.jpg')">
+            <img class="thumbnail" src="pildid/sole11.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole11.jpg')">
+            <img class="thumbnail" src="pildid/sole12.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole12.jpg')">
+            <img class="thumbnail" src="pildid/sole13.jpg" alt="Project 3"
+                 onclick="openModal('pildid/sole13.jpg')">
+        </div>
+        <h2>Puhangu korter (TEGEMISEL!)</h2>
+        <div class="project-gallery">
+            <img class="thumbnail" src="pildid/puhanguplaan1.jpg" alt="Project 4"
+                 onclick="openModal('pildid/puhanguplaan1.jpg')">
+            <img class="thumbnail" src="pildid/puhanguplaan2.png" alt="Project 4"
+                 onclick="openModal('pildid/puhanguplaan2.png')">
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01" src="#" alt="Image description here">
+        <div id="caption"></div>
+    </div>
+    <div class="content" id="instructions">
+        <h1>ERINEVAD JUHISED REMONDI TEOSTAMISEKS</h1>
+        <p>Siit leiate mõned juhised, kuidas renoveerimistöid teostada</p>
+        <h2>Värvimine ja pahteldamine</h2>
+        <div class="video-gallery">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ds9yVfc9piY?si=Vi-uaDXICnEPOqHk"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/a3I7y1DnjaI?si=Ckxgl4dGh8mpayjg"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+        <h2>Põranda paigaldus</h2>
+        <div class="video-gallery">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/W3bqTdoqN88?si=X0nAHjARig0qD1SA"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LoUmpoA-sEo?si=Wi0iX1H0rvhHQM2M"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+
+
+    </div>
+    <div class="content" id="contact">
+        <h1>KONTAKT</h1>
+        <p>kaurilves@tlu.ee</p>
+    </div>
+
+
+</div>
+<div class="footer-container">
+    <div class="footer">
+        <h3>See veebileht on tehtud TLÜ Haapsalu kolledži veebiprogrammeerimise aine raames. Oman kõikide piltide
+            autoriõigusi, kaasarvatud logo oma!</h3>
+    </div>
+</div>
+
+<script>
+    function toggleComponents(componentIdToShow) {
+        let components = document.getElementsByClassName('content');
+        for (let i = 0; i < components.length; i++) {
+            components[i].style.display = 'none';
+        }
+        let activeComponent = document.getElementById(componentIdToShow);
+        activeComponent.style.display = 'block';
+    }
+
+
+    function openModal(src) {
+        let modal = document.getElementById("myModal");
+        let modalImg = document.getElementById("img01");
+        let captionText = document.getElementById("caption");
+
+        modal.style.display = "block";
+        modalImg.src = src;
+        captionText.innerHTML = src.split('/').pop();
+    }
+
+    let thumbnails = document.getElementsByClassName('thumbnail');
+    for (let i = 0; i < thumbnails.length; i++) {
+        thumbnails[i].onclick = function () {
+            openModal(this.src);
+        }
+    }
+
+
+    function closeModal() {
+        let modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
+
+</script>
+
+</body>
+</html>
